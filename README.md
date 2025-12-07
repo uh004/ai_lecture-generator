@@ -59,14 +59,14 @@ fc-cache -fv
 ```
 !python main.py
 ```
+---> sample.pptx 다운받아서 사용
 
 ### 📌 참고사항
 ```
 이 실행 가이드는 **Google Colab 환경에서 실행하는 것을 기준**으로 작성되었습니다.  
 Colab은 매번 런타임이 초기화되기 때문에,  
-PPT 변환(LibreOffice), FFmpeg, 한국어 폰트 등 시스템 패키지를  
-매 실행마다 설치해야 합니다.
+PPT 변환(LibreOffice), FFmpeg, 한국어 폰트 등 시스템 패키지를  매 실행마다 설치해야 합니다.
 
-로컬 환경(Ubuntu/Mac)에서도 실행 가능하지만,  
-필요한 패키지는 직접 설치해야 합니다.
+로컬 환경(Ubuntu/Mac)에서도 실행 가능하지만, 필요한 패키지는 직접 설치해야 합니다.
 ```
+
