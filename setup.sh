@@ -2,11 +2,9 @@
 
 apt-get update
 
-# 기본 패키지 설치
-apt-get -y install ffmpeg libreoffice poppler-utils poppler-data locales \
+apt-get -y install ffmpeg libreoffice libreoffice-impress libreoffice-common \
+                   poppler-utils poppler-data locales \
                    fonts-noto-cjk fonts-noto-cjk-extra fonts-nanum fonts-unfonts-core
-
-apt-get install -y libreoffice-impress libreoffice-common poppler-utils
 
 # Locale 설정
 sed -i 's/^# *ko_KR.UTF-8 UTF-8/ko_KR.UTF-8 UTF-8/' /etc/locale.gen
